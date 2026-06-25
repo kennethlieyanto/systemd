@@ -1,0 +1,6 @@
+[Unit]
+Description=Task sync
+
+[Service]
+Type=oneshot
+ExecStart=task sync
